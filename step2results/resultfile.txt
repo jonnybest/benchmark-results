@@ -1,0 +1,40 @@
+=== Alloy2RelSMT result file ===
+; timeout is set to 5500
+--- filesystem_fileInDir.als ---
+['timeout']
+
+--- filesystem_oneParent.als ---
+['unsat', '0.01']
+
+--- filesystem_someDir.als ---
+['timeout']
+
+--- com_th4a.als ---
+['timeout']
+
+--- com_th3.als ---
+['timeout']
+
+--- com_th1-min.als ---
+['unsat', '5.00']
+
+--- com_th2.als ---
+['timeout']
+
+--- com_th4b.als ---
+['timeout']
+
+--- com_th1.als ---
+['timeout']
+
+--- marksweepgc_completeness.als ---
+['timeout']
+
+--- marksweepgc_soundness1.als ---
+['unsat', '0.07']
+
+--- marksweepgc_soundness2.als ---
+['timeout']
+
+
+=== done ===

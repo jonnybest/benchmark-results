@@ -1,0 +1,368 @@
+This path is :/amd.home/home/best/experiment
+This directory is known as :.
+We run in file: run-experiments.py
+new folder found
+/amd.home/home/best/experiment/filesystem
+[]
+['filesystem_fileInDir.als', 'filesystem_oneParent.als', 'filesystem_someDir.smt2', 'filesystem_fileInDir.smt2', 'filesystem_oneParent.smt2', 'filesystem_oneParent.als.smt2', 'filesystem_someDir.als', 'filesystem_someDir.als.smt2', 'filesystem_fileInDir.als.smt2']
+['java', ' -jar ~/Programs/alloy2RelSMT/alloy2relsmt.jar -f --relationalequality /amd.home/home/best/experiment/filesystem/filesystem_fileInDir.als /amd.home/home/best/experiment/filesystem/filesystem_fileInDir.als.smt2']
+Successfully parsed /amd.home/home/best/experiment/filesystem/filesystem_fileInDir.als as chapter4/filesystem
+	Using relational equality for relational formulas. 
+	Use the -nre switch to use '=' instead.
+Model successfully translated.
+Output written to /amd.home/home/best/experiment/filesystem/filesystem_fileInDir.als.smt2
+
+timeout
+(:added-eqs                   64045588
+ :binary-propagations         9576396
+ :conflicts                   15796
+ :decisions                   55594236
+ :del-clause                  125750339
+ :final-checks                31944
+ :lazy-quant-instantiations   300094735
+ :max-generation              21
+ :max-missed-qa-cost          21.00
+ :memory                      720.87
+ :min-missed-qa-cost          11.00
+ :minimized-lits              774
+ :missed-quant-instantiations 250265
+ :mk-clause                   125813765
+ :propagations                64729224
+ :quant-instantiations        89419383
+ :restarts                    16
+ :time                        5500.00
+ :total-time                  5499.16)
+
+['java', ' -jar ~/Programs/alloy2RelSMT/alloy2relsmt.jar -f --relationalequality /amd.home/home/best/experiment/filesystem/filesystem_oneParent.als /amd.home/home/best/experiment/filesystem/filesystem_oneParent.als.smt2']
+Successfully parsed /amd.home/home/best/experiment/filesystem/filesystem_oneParent.als as unknown
+	Using relational equality for relational formulas. 
+	Use the -nre switch to use '=' instead.
+Model successfully translated.
+Output written to /amd.home/home/best/experiment/filesystem/filesystem_oneParent.als.smt2
+
+unsat
+(:added-eqs                   70
+ :binary-propagations         68
+ :conflicts                   2
+ :decisions                   1
+ :del-clause                  43
+ :max-generation              11
+ :max-missed-qa-cost          11.00
+ :memory                      1.13
+ :min-missed-qa-cost          11.00
+ :missed-quant-instantiations 16
+ :mk-clause                   51
+ :propagations                69
+ :quant-instantiations        103
+ :time                        0.01
+ :total-time                  0.01)
+
+['java', ' -jar ~/Programs/alloy2RelSMT/alloy2relsmt.jar -f --relationalequality /amd.home/home/best/experiment/filesystem/filesystem_someDir.als /amd.home/home/best/experiment/filesystem/filesystem_someDir.als.smt2']
+Successfully parsed /amd.home/home/best/experiment/filesystem/filesystem_someDir.als as chapter4/filesystem
+	Using relational equality for relational formulas. 
+	Use the -nre switch to use '=' instead.
+Model successfully translated.
+Output written to /amd.home/home/best/experiment/filesystem/filesystem_someDir.als.smt2
+
+timeout
+(:added-eqs                   62361926
+ :binary-propagations         15019379
+ :conflicts                   25584
+ :decisions                   111969441
+ :del-clause                  99713082
+ :final-checks                48907
+ :lazy-quant-instantiations   130676143
+ :max-generation              21
+ :max-missed-qa-cost          21.00
+ :memory                      248.42
+ :min-missed-qa-cost          11.00
+ :minimized-lits              761
+ :missed-quant-instantiations 21035
+ :mk-clause                   99753654
+ :propagations                94022518
+ :quant-instantiations        69175036
+ :restarts                    16
+ :time                        5500.00
+ :total-time                  5499.16)
+
+new folder found
+/amd.home/home/best/experiment/com
+[]
+['com_th4b.als.smt2', 'com_th3.als.smt2', 'com_th4a.smt2', 'com_th1.smt2', 'com_th4a.als', 'com_th3.smt2', 'com_th2.als.smt2', 'com_th3.als', 'com_th1-min.als', 'com_th2.als', 'com_th4b.smt2', 'com_th4b.als', 'com_th1.als', 'com_th4a.als.smt2', 'com_th1.als.smt2', 'com_th2.smt2', 'com_th1-min.als.smt2']
+['java', ' -jar ~/Programs/alloy2RelSMT/alloy2relsmt.jar -f --relationalequality /amd.home/home/best/experiment/com/com_th4a.als /amd.home/home/best/experiment/com/com_th4a.als.smt2']
+Successfully parsed /amd.home/home/best/experiment/com/com_th4a.als as examples/case_studies/com
+	Using relational equality for relational formulas. 
+	Use the -nre switch to use '=' instead.
+### declExpr: this/IID ->lone this/Interface 
+    exprChain: [IID 1, Interface 1]
+Model successfully translated.
+Output written to /amd.home/home/best/experiment/com/com_th4a.als.smt2
+
+timeout
+(:added-eqs                   32030927
+ :binary-propagations         3076473
+ :conflicts                   7748
+ :decisions                   36203681
+ :del-clause                  122257583
+ :final-checks                4845
+ :lazy-quant-instantiations   293789315
+ :max-generation              15
+ :max-missed-qa-cost          13.00
+ :memory                      1171.63
+ :min-missed-qa-cost          11.00
+ :minimized-lits              238
+ :missed-quant-instantiations 82550
+ :mk-clause                   122287923
+ :propagations                27939064
+ :quant-instantiations        84219551
+ :restarts                    9
+ :time                        5500.00
+ :total-time                  5499.16)
+
+['java', ' -jar ~/Programs/alloy2RelSMT/alloy2relsmt.jar -f --relationalequality /amd.home/home/best/experiment/com/com_th3.als /amd.home/home/best/experiment/com/com_th3.als.smt2']
+Successfully parsed /amd.home/home/best/experiment/com/com_th3.als as examples/case_studies/com
+	Using relational equality for relational formulas. 
+	Use the -nre switch to use '=' instead.
+### declExpr: this/IID ->lone this/Interface 
+    exprChain: [IID 1, Interface 1]
+Model successfully translated.
+Output written to /amd.home/home/best/experiment/com/com_th3.als.smt2
+
+timeout
+(:added-eqs                   18389352
+ :binary-propagations         765525
+ :conflicts                   3450
+ :decisions                   9499977
+ :del-clause                  41774006
+ :final-checks                7239
+ :lazy-quant-instantiations   162624245
+ :max-generation              21
+ :max-missed-qa-cost          22.00
+ :memory                      898.85
+ :min-missed-qa-cost          21.00
+ :minimized-lits              279
+ :missed-quant-instantiations 890050
+ :mk-clause                   41876133
+ :propagations                13212226
+ :quant-instantiations        39974175
+ :restarts                    9
+ :time                        5500.00
+ :total-time                  5499.16)
+
+['java', ' -jar ~/Programs/alloy2RelSMT/alloy2relsmt.jar -f --relationalequality /amd.home/home/best/experiment/com/com_th1-min.als /amd.home/home/best/experiment/com/com_th1-min.als.smt2']
+Successfully parsed /amd.home/home/best/experiment/com/com_th1-min.als as exploration/com1_minified
+	Using relational equality for relational formulas. 
+	Use the -nre switch to use '=' instead.
+Model successfully translated.
+Output written to /amd.home/home/best/experiment/com/com_th1-min.als.smt2
+
+unsat
+(:added-eqs                   58589
+ :binary-propagations         32935
+ :conflicts                   200
+ :decisions                   60239
+ :del-clause                  258506
+ :final-checks                41
+ :lazy-quant-instantiations   228147
+ :max-generation              11
+ :max-missed-qa-cost          11.00
+ :memory                      17.95
+ :min-missed-qa-cost          11.00
+ :minimized-lits              10
+ :missed-quant-instantiations 1587
+ :mk-clause                   258975
+ :propagations                89980
+ :quant-instantiations        136150
+ :restarts                    1
+ :time                        5.00
+ :total-time                  4.99)
+
+['java', ' -jar ~/Programs/alloy2RelSMT/alloy2relsmt.jar -f --relationalequality /amd.home/home/best/experiment/com/com_th2.als /amd.home/home/best/experiment/com/com_th2.als.smt2']
+Successfully parsed /amd.home/home/best/experiment/com/com_th2.als as examples/case_studies/com
+	Using relational equality for relational formulas. 
+	Use the -nre switch to use '=' instead.
+### declExpr: this/IID ->lone this/Interface 
+    exprChain: [IID 1, Interface 1]
+Model successfully translated.
+Output written to /amd.home/home/best/experiment/com/com_th2.als.smt2
+
+timeout
+(:added-eqs                   23601486
+ :binary-propagations         3486341
+ :conflicts                   6306
+ :decisions                   29994833
+ :del-clause                  125298399
+ :final-checks                3667
+ :lazy-quant-instantiations   310137857
+ :max-generation              14
+ :max-missed-qa-cost          15.00
+ :memory                      1055.12
+ :min-missed-qa-cost          11.00
+ :minimized-lits              140
+ :missed-quant-instantiations 199628
+ :mk-clause                   125346078
+ :propagations                29353717
+ :quant-instantiations        87491670
+ :restarts                    8
+ :time                        5500.00
+ :total-time                  5499.16)
+
+['java', ' -jar ~/Programs/alloy2RelSMT/alloy2relsmt.jar -f --relationalequality /amd.home/home/best/experiment/com/com_th4b.als /amd.home/home/best/experiment/com/com_th4b.als.smt2']
+Successfully parsed /amd.home/home/best/experiment/com/com_th4b.als as examples/case_studies/com
+	Using relational equality for relational formulas. 
+	Use the -nre switch to use '=' instead.
+### declExpr: this/IID ->lone this/Interface 
+    exprChain: [IID 1, Interface 1]
+Model successfully translated.
+Output written to /amd.home/home/best/experiment/com/com_th4b.als.smt2
+
+timeout
+(:added-eqs                   14195267
+ :binary-propagations         2379879
+ :conflicts                   5879
+ :decisions                   33333050
+ :del-clause                  161729826
+ :final-checks                5501
+ :lazy-quant-instantiations   750614932
+ :max-generation              20
+ :max-missed-qa-cost          21.00
+ :memory                      1659.85
+ :min-missed-qa-cost          11.00
+ :minimized-lits              189
+ :missed-quant-instantiations 796465
+ :mk-clause                   161772552
+ :propagations                15643821
+ :quant-instantiations        98295130
+ :restarts                    11
+ :time                        5500.00
+ :total-time                  5499.16)
+
+['java', ' -jar ~/Programs/alloy2RelSMT/alloy2relsmt.jar -f --relationalequality /amd.home/home/best/experiment/com/com_th1.als /amd.home/home/best/experiment/com/com_th1.als.smt2']
+Successfully parsed /amd.home/home/best/experiment/com/com_th1.als as examples/case_studies/com
+	Using relational equality for relational formulas. 
+	Use the -nre switch to use '=' instead.
+### declExpr: this/IID ->lone this/Interface 
+    exprChain: [IID 1, Interface 1]
+Model successfully translated.
+Output written to /amd.home/home/best/experiment/com/com_th1.als.smt2
+
+timeout
+(:added-eqs                   32564103
+ :binary-propagations         3066292
+ :conflicts                   8717
+ :decisions                   36674875
+ :del-clause                  150986317
+ :final-checks                10327
+ :lazy-quant-instantiations   566909626
+ :max-generation              18
+ :max-missed-qa-cost          16.00
+ :memory                      1546.11
+ :min-missed-qa-cost          11.00
+ :minimized-lits              323
+ :missed-quant-instantiations 208893
+ :mk-clause                   151038646
+ :propagations                32715002
+ :quant-instantiations        109867297
+ :restarts                    9
+ :time                        5500.00
+ :total-time                  5499.16)
+
+new folder found
+/amd.home/home/best/experiment/marksweepgc
+[]
+['marksweepgc_completeness.als', 'marksweepgc_soundness1.smt2', 'marksweepgc_soundness1.als', 'marksweepgc_completeness.smt2', 'marksweepgc_soundness2.smt2', 'marksweepgc_soundness1.als.smt2', 'marksweepgc_completeness.als.smt2', 'marksweepgc_soundness2.als.smt2', 'marksweepgc_soundness2.als']
+['java', ' -jar ~/Programs/alloy2RelSMT/alloy2relsmt.jar -f --relationalequality /amd.home/home/best/experiment/marksweepgc/marksweepgc_completeness.als /amd.home/home/best/experiment/marksweepgc/marksweepgc_completeness.als.smt2']
+Successfully parsed /amd.home/home/best/experiment/marksweepgc/marksweepgc_completeness.als as examples/systems/marksweepgc
+	Using relational equality for relational formulas. 
+	Use the -nre switch to use '=' instead.
+### declExpr: this/Node ->lone this/Node 
+    exprChain: [Node 1, Node 1]
+### declExpr: this/Node ->lone this/Node 
+    exprChain: [Node 1, Node 1]
+Model successfully translated.
+Output written to /amd.home/home/best/experiment/marksweepgc/marksweepgc_completeness.als.smt2
+
+timeout
+(:added-eqs                   38071951
+ :binary-propagations         17300671
+ :conflicts                   19019
+ :decisions                   83187525
+ :del-clause                  62962271
+ :final-checks                29991
+ :lazy-quant-instantiations   136619438
+ :max-generation              20
+ :max-missed-qa-cost          21.00
+ :memory                      617.30
+ :min-missed-qa-cost          11.00
+ :minimized-lits              985
+ :missed-quant-instantiations 50776
+ :mk-clause                   63000215
+ :propagations                62000838
+ :quant-instantiations        67810652
+ :restarts                    13
+ :time                        5500.00
+ :total-time                  5499.16)
+
+['java', ' -jar ~/Programs/alloy2RelSMT/alloy2relsmt.jar -f --relationalequality /amd.home/home/best/experiment/marksweepgc/marksweepgc_soundness1.als /amd.home/home/best/experiment/marksweepgc/marksweepgc_soundness1.als.smt2']
+Successfully parsed /amd.home/home/best/experiment/marksweepgc/marksweepgc_soundness1.als as examples/systems/marksweepgc
+	Using relational equality for relational formulas. 
+	Use the -nre switch to use '=' instead.
+### declExpr: this/Node ->lone this/Node 
+    exprChain: [Node 1, Node 1]
+### declExpr: this/Node ->lone this/Node 
+    exprChain: [Node 1, Node 1]
+Model successfully translated.
+Output written to /amd.home/home/best/experiment/marksweepgc/marksweepgc_soundness1.als.smt2
+
+unsat
+(:added-eqs            1255
+ :binary-propagations  132
+ :conflicts            13
+ :decisions            124
+ :del-clause           4119
+ :max-generation       10
+ :memory               3.54
+ :minimized-lits       4
+ :mk-clause            4151
+ :propagations         1423
+ :quant-instantiations 1758
+ :time                 0.07
+ :total-time           0.06)
+
+['java', ' -jar ~/Programs/alloy2RelSMT/alloy2relsmt.jar -f --relationalequality /amd.home/home/best/experiment/marksweepgc/marksweepgc_soundness2.als /amd.home/home/best/experiment/marksweepgc/marksweepgc_soundness2.als.smt2']
+Successfully parsed /amd.home/home/best/experiment/marksweepgc/marksweepgc_soundness2.als as examples/systems/marksweepgc
+	Using relational equality for relational formulas. 
+	Use the -nre switch to use '=' instead.
+### declExpr: this/Node ->lone this/Node 
+    exprChain: [Node 1, Node 1]
+### declExpr: this/Node ->lone this/Node 
+    exprChain: [Node 1, Node 1]
+Model successfully translated.
+Output written to /amd.home/home/best/experiment/marksweepgc/marksweepgc_soundness2.als.smt2
+
+timeout
+(:added-eqs                   46660310
+ :binary-propagations         13074451
+ :conflicts                   14698
+ :decisions                   54730399
+ :del-clause                  52811772
+ :final-checks                21343
+ :lazy-quant-instantiations   160845095
+ :max-generation              20
+ :max-missed-qa-cost          21.00
+ :memory                      696.35
+ :min-missed-qa-cost          11.00
+ :minimized-lits              494
+ :missed-quant-instantiations 18998
+ :mk-clause                   52851534
+ :propagations                43482304
+ :quant-instantiations        66029605
+ :restarts                    15
+ :time                        5500.00
+ :total-time                  5499.16)
+
+new folder found
+/amd.home/home/best/experiment
+['filesystem', 'com', 'marksweepgc']
+['run-experiments.py', 'results2with5500.txt', 'resultfile.txt']
+done
